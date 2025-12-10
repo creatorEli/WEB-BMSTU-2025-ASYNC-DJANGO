@@ -1,0 +1,271 @@
+Watching for file changes with StatReloader
+Internal Server Error: /api/health/
+Traceback (most recent call last):
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\request.py", line 227, in user
+    self._authenticate()
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\request.py", line 390, in _authenticate
+    self._not_authenticated()
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\request.py", line 400, in _not_authenticated
+    if api_settings.UNAUTHENTICATED_USER:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\settings.py", line 225, in __getattr__
+    val = perform_import(val, attr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\settings.py", line 166, in perform_import
+    return import_from_string(val, setting_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\settings.py", line 177, in import_from_string
+    return import_string(val)
+           ^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\utils\module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\contrib\auth\models.py", line 5, in <module>
+    from django.contrib.contenttypes.models import ContentType
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\contrib\contenttypes\models.py", line 139, in <module>
+    class ContentType(models.Model):
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\db\models\base.py", line 134, in __new__
+    raise RuntimeError(
+RuntimeError: Model class django.contrib.contenttypes.models.ContentType doesn't declare an explicit app_label and isn't in an application in INSTALLED_APPS.
+Internal Server Error: /api/health/
+Traceback (most recent call last):
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\request.py", line 227, in user
+    self._authenticate()
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\request.py", line 390, in _authenticate
+    self._not_authenticated()
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\request.py", line 400, in _not_authenticated
+    if api_settings.UNAUTHENTICATED_USER:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\settings.py", line 225, in __getattr__
+    val = perform_import(val, attr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\settings.py", line 166, in perform_import
+    return import_from_string(val, setting_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\settings.py", line 177, in import_from_string
+    return import_string(val)
+           ^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\utils\module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\contrib\auth\models.py", line 5, in <module>
+    from django.contrib.contenttypes.models import ContentType
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\contrib\contenttypes\models.py", line 139, in <module>
+    class ContentType(models.Model):
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\db\models\base.py", line 134, in __new__
+    raise RuntimeError(
+RuntimeError: Model class django.contrib.contenttypes.models.ContentType doesn't declare an explicit app_label and isn't in an application in INSTALLED_APPS.
+Not Found: /favicon.ico
+Internal Server Error: /api/health/
+Traceback (most recent call last):
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\request.py", line 227, in user
+    self._authenticate()
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\request.py", line 390, in _authenticate
+    self._not_authenticated()
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\request.py", line 400, in _not_authenticated
+    if api_settings.UNAUTHENTICATED_USER:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\settings.py", line 225, in __getattr__
+    val = perform_import(val, attr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\settings.py", line 166, in perform_import
+    return import_from_string(val, setting_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\settings.py", line 177, in import_from_string
+    return import_string(val)
+           ^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\utils\module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\contrib\auth\models.py", line 5, in <module>
+    from django.contrib.contenttypes.models import ContentType
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\contrib\contenttypes\models.py", line 139, in <module>
+    class ContentType(models.Model):
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\db\models\base.py", line 134, in __new__
+    raise RuntimeError(
+RuntimeError: Model class django.contrib.contenttypes.models.ContentType doesn't declare an explicit app_label and isn't in an application in INSTALLED_APPS.
+Watching for file changes with StatReloader
+W:\BM57U\WEB\for_lab_8\toa_async\async_calculator\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/health/
+Traceback (most recent call last):
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\request.py", line 227, in user
+    self._authenticate()
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\request.py", line 390, in _authenticate
+    self._not_authenticated()
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\request.py", line 400, in _not_authenticated
+    if api_settings.UNAUTHENTICATED_USER:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\settings.py", line 225, in __getattr__
+    val = perform_import(val, attr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\settings.py", line 166, in perform_import
+    return import_from_string(val, setting_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\rest_framework\settings.py", line 177, in import_from_string
+    return import_string(val)
+           ^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\utils\module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\contrib\auth\models.py", line 5, in <module>
+    from django.contrib.contenttypes.models import ContentType
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\contrib\contenttypes\models.py", line 139, in <module>
+    class ContentType(models.Model):
+  File "W:\BM57U\WEB\for_lab_8\toa_async\venv\Lib\site-packages\django\db\models\base.py", line 134, in __new__
+    raise RuntimeError(
+RuntimeError: Model class django.contrib.contenttypes.models.ContentType doesn't declare an explicit app_label and isn't in an application in INSTALLED_APPS.
+W:\BM57U\WEB\for_lab_8\toa_async\async_calculator\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+W:\BM57U\WEB\for_lab_8\toa_async\async_calculator\settings.py changed, reloading.
+Watching for file changes with StatReloader
+W:\BM57U\WEB\for_lab_8\toa_async\async_calculator\settings.py changed, reloading.
