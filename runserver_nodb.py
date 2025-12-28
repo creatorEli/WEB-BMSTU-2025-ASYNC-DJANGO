@@ -16,7 +16,7 @@ def main():
     apps.ready = True
     
     # Модифицируем аргументы командной строки для запуска сервера без проверок
-    sys.argv = [sys.argv[0], 'runserver', '0.0.0.0:8000', '--noreload', '--skip-checks']
+    sys.argv = [sys.argv[0], 'runserver', '0.0.0.0:8085', '--noreload', '--skip-checks']
     
     # Запускаем сервер
     execute_from_command_line(sys.argv)
